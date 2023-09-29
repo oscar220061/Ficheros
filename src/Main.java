@@ -8,6 +8,7 @@ public class Main {
             System.out.println("2. Ejercicio 1 ficheros NIO");
             System.out.println("3. Ejercicio 2 listar directorios");
             System.out.println("3. Ejercicio 2 listar directorios NIO");
+            System.out.println("4. Ejercicio 3 leer fichero NIO");
             System.out.println("0. Salir");
 
 
@@ -26,7 +27,10 @@ public class Main {
                     code.ej2.checkDirectory();
                 }
                 case "4"->{
-
+                    code.ej3.checkFilesNIO();
+                }
+                case "5"->{
+                    code.ej6.checkFilesNIO();
                 }
                 default->{
                     System.out.println("Este número no está en el menú, escoge un número del 0 al 3.");
